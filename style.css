@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100svh;
+  background-color: black;
+  color: white;
+}
+header {
+  display: inline-flex;
+  padding: 17px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 932px;
+}
+nav {
+  display: flex;
+  padding: 28px 33px;
+  align-items: flex-start;
+  gap: 90px;
+}
+.header-title {
+  display: flex;
+  height: 62px;
+  padding: 0px 0px 10px 9px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-title-text {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.system-jupiter {
+  width: 1920px;
+  /* height: 4114px; */
+}
+.planet-jupiter {
+  width: 1920px;
+  height: 822px;
+  flex-shrink: 0;
+}
+.jupiter-img {
+  width: 823px;
+  height: 823px;
+  flex-shrink: 0;
+}
+.jupiter-bio {
+  display: inline-flex;
+  padding-top: 15px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 99px;
+}
+.jupiter-title {
+  color: #be6c2d;
+  /* font-family: JejuMyeongjo; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 107px;
+  height: 31px;
+}
+.jupiter-text {
+  display: flex;
+  width: 636px;
+  padding-bottom: 113px;
+  flex-direction: column;
+  align-items: center;
+  color: #be6c2d;
+  /* font-family: JejuMyeongjo; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.io {
+  display: inline-flex;
+  height: 823px;
+  padding: 0px 2px 0px 179px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 280px;
+  flex-shrink: 0;
+}
+.io-img {
+  width: 823px;
+  height: 823px;
+}
+.io-bio {
+  width: 636px;
+  height: 745px;
+}
+.io-title {
+  color: #e9e26f;
+  /* font-family: JejuMyeongjo; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 30px;
+  height: 33px;
+  flex-shrink: 0;
+}
+
+.io-text {
+  color: #e9e26f;
+  /* font-family: JejuMyeongjo; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 636px;
+  height: 568px;
+  flex-shrink: 0;
+}
+.europa {
+  display: inline-flex;
+  height: 823px;
+  padding: 0px 5px 0px 179px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 277px;
+  flex-shrink: 0;
+}
+.europa-img {
+  width: 823px;
+  height: 823px;
+}
+.europa-bio {
+  width: 636px;
+  height: 725px;
+  flex-shrink: 0;
+}
+.europa-title {
+  color: #7b7366;
+  /* font-family: JejuMyeongjo; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 102px;
+  height: 34px;
+  flex-shrink: 0;
+}
+.europa-text {
+  width: 636px;
+  height: 568px;
+  flex-shrink: 0;
+  color: #7b7366;
+  /* font-family: JejuMyeongjo; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.ganymede {
+  display: inline-flex;
+  height: 823px;
+  padding-left: 179px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 292px;
+  flex-shrink: 0;
+}
+.ganymede-img {
+  width: 814px;
+  height: 799px;
+}
+.ganymede-bio {
+  width: 636px;
+  height: 725px;
+  flex-shrink: 0;
+}
+.ganymede-title {
+  color: #f5efef;
+  /* font-family: JejuMyeongjo; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 148px;
+  height: 35px;
+  flex-shrink: 0;
+}
+.ganymede-text {
+  color: #f5efef;
+  /* font-family: JejuMyeongjo; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 636px;
+  height: 568px;
+  flex-shrink: 0;
+}
+.callisto {
+  display: inline-flex;
+  height: 823px;
+  padding-left: 179px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 309px;
+  flex-shrink: 0;
+}
+.callisto-img {
+  width: 797px;
+  height: 823px;
+}
+.callisto-bio {
+  width: 636px;
+  height: 725px;
+  flex-shrink: 0;
+}
+.callisto-title {
+  color: #6a5a2e;
+  /* font-family: JejuMyeongjo; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 112px;
+  height: 39px;
+  flex-shrink: 0;
+}
+.callisto-text {
+  color: #6a5a2e;
+  /* font-family: JejuMyeongjo; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 636px;
+  height: 568px;
+  flex-shrink: 0;
+}
+.system-saturn {
+  display: flex;
+  width: 1920px;
+  height: 1646px;
+  padding-left: 2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.planet-saturn {
+  display: flex;
+  width: 1920px;
+  height: 823px;
+  padding-left: 179px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 141px;
+  flex-shrink: 0;
+}
+
+.saturn-img {
+  width: 965px;
+  height: 720px;
+  flex-shrink: 0;
+}
+
+.saturn-bio {
+  display: flex;
+  width: 636px;
+  height: 823px;
+  padding: 57px 0px 41px 0px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+}
+.saturn-title {
+  color: #dbbc95;
+  /* font-family: JejuMyeongjo; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.saturn-text {
+  color: #dbbc95;
+  font-family: JejuMyeongjo;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
